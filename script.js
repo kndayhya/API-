@@ -11,7 +11,7 @@ button.addEventListener("click", function() {  // When the button is clicked
       container.innerHTML = "<h2>" + meal.strMeal + "</h2>" +  // Display the meal name
         "<img src='" + meal.strMealThumb + "' alt='" + meal.strMeal + "'>" +  // Display the image
         "<p><strong>Category:</strong> " + meal.strCategory + "</p>" +  // Display the category
-        "<p><strong>Instructions:</strong> " + meal.strInstructions.substring(0, 300) + "...</p>";  // Display the instructions
+        "<p><strong>Instructions:</strong> " + meal.strInstructions + "...</p>";  // Display the instructions
     });
 });
 
